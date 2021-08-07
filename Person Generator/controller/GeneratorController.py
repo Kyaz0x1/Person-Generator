@@ -19,7 +19,7 @@ class GeneratorController:
         self.get_sex_option()
     
     def get_sex_option(self):
-        View.show_menu(
+        View.show_menu_coptions(
             'Gerador de Pessoas - Escolha o Sexo', 
             H = 'Masculino', M = 'Feminino', I = 'Aleatório', S = 'Sair'
         )
@@ -38,7 +38,7 @@ class GeneratorController:
         self.get_punctuation_option()
         
     def get_punctuation_option(self):
-        View.show_menu(
+        View.show_menu_coptions(
             'Gerador de Pessoas - Gerar com pontuação?',
             S = 'Sim', N = 'Não'
         )
